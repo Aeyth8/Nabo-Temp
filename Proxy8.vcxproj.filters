@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Aeyth8\Proxy.cpp">
+      <Filter>Aeyth8\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Aeyth8\ProxyTypes.cpp">
+      <Filter>Aeyth8\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\buffer.c">
+      <Filter>MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\hook.c">
+      <Filter>MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\trampoline.c">
+      <Filter>MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\hde\hde32.c">
+      <Filter>MinHook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\hde\hde64.c">
+      <Filter>MinHook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Aeyth8\Hooks\Hooks.cpp">
+      <Filter>Aeyth8\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Aeyth8\Global.cpp">
+      <Filter>Aeyth8</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Basic.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\CoreUObject_functions.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Engine_functions.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Aeyth8\Tools\Pointers.cpp">
+      <Filter>Aeyth8\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Aeyth8\Logic.cpp">
+      <Filter>Aeyth8</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\JP_functions.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Aeyth8\Offsets.cpp">
+      <Filter>Aeyth8</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Aeyth8\Proxy.h">
+      <Filter>Aeyth8\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Aeyth8\ProxyTypes.h">
+      <Filter>Aeyth8\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\MinHook.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\buffer.h">
+      <Filter>MinHook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\trampoline.h">
+      <Filter>MinHook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\hde\hde32.h">
+      <Filter>MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\hde\hde64.h">
+      <Filter>MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\hde\pstdint.h">
+      <Filter>MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\hde\table32.h">
+      <Filter>MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\hde\table64.h">
+      <Filter>MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Aeyth8\Hooks\Hooks.hpp">
+      <Filter>Aeyth8\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Aeyth8\Global.hpp">
+      <Filter>Aeyth8</Filter>
+    </ClInclude>
+    <ClInclude Include="Aeyth8\Logger.hpp">
+      <Filter>Aeyth8</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyFixup.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrealContainers.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Aeyth8\Tools\Pointers.h">
+      <Filter>Aeyth8\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Aeyth8\Logic.hpp">
+      <Filter>Aeyth8</Filter>
+    </ClInclude>
+    <ClInclude Include="Aeyth8\Offsets.hpp">
+      <Filter>Aeyth8</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Aeyth8">
+      <UniqueIdentifier>{22d66732-5242-4541-a899-ff4b3121ebe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c100630e-ec84-43ac-ad25-07d92d79424e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Aeyth8\Proxy">
+      <UniqueIdentifier>{ba2fe6ac-b7ce-465b-8f5d-2671412a78b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook">
+      <UniqueIdentifier>{c7eb5503-408f-4334-9d25-2d9440b7b770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook\src">
+      <UniqueIdentifier>{947333fd-e313-49b6-934a-81a843ae0284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook\src\hde">
+      <UniqueIdentifier>{47b3ef5e-d39e-4f9b-af2e-f3f52d3a5cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Aeyth8\Hooks">
+      <UniqueIdentifier>{8c5bccd1-d66d-4f75-9e17-8a5f2d37d9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{0201db6b-12e8-4528-a07f-4363a21c9bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\CPP">
+      <UniqueIdentifier>{42b4da32-eac9-4b6d-9ffa-1560a5386f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Aeyth8\Tools">
+      <UniqueIdentifier>{4eb0a379-f42e-4010-8d5f-f3f01de61fff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NameCollisions.inl">
+      <Filter>SDK</Filter>
+    </None>
+  </ItemGroup>
+</Project>
