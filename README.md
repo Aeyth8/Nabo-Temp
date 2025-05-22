@@ -1,15 +1,19 @@
 # How To Use
 
-This project **only** works with Manifest [Manifest #9199657030240920167](steamdb.info/depot/1732431/history/?changeid=M:9199657030240920167)
+This project **only** works with [Manifest #9199657030240920167](steamdb.info/depot/1732431/history/?changeid=M:9199657030240920167)
 
 * Compile the DLL and place it in ``Neighbors Suburban Warfare\JP\Binaries\Win64``
 
 This DLL automatically unlocks the UConsole and contains custom logic for custom commands, the commands are:
 
 **setneighborloadout** - ``Reloads/Equips your character``
+
 **setneighbor** - ``Sets the neighbor type, requires the name of the character``
+
 **setneighborperk** - ``Sets the unique neighbor perk, you can use any perk with any neighbor, which is a feature bypass of this program``
+
 **setskin** - ``Sets the skin of the neighbor, {name}.default is for the plain skin``
+
 **setperk** - ``Sets the general perk``
 
 To open the UConsole, press Tilde ``~`` on your keyboard.
